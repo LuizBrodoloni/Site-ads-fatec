@@ -1,0 +1,57 @@
+﻿.homeTittle {
+    padding-bottom:15px;
+    border-bottom:3px solid black;
+    margin:50px 0;
+}
+#cont1Home {
+    display:flex;
+}
+#cont2Home{
+    display:flex;
+    justify-content:space-around;
+}
+.divCont2{
+    width:300px;
+    border:solid 1px black;
+}
+#cont1Home #conteudoHome {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+#hOque{
+    color: #424242;
+    margin-bottom:10px;
+}
+.pHome {
+    text-align: justify;
+    text-indent: 40px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+#imgHome {
+    float:left;
+    display:grid;
+    width: 35%;
+}
+.subTittleHome {
+    color: #424242;
+    margin: 30px 0;
+}
+.pDivCont2{
+    text-align:center;
+    font-weight:bold;
+    padding:20px 0;
+}
+.p2DivCont2{
+    margin:0 30px 10px 30px;
+    text-align:justify;
+}
+.btnMatriz{
+    margin-left:50%;
+    transform:translate(-50%);
+    width:180px;
+    height:60px;
+    font-size:18px;
+}
+

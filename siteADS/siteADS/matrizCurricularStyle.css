@@ -1,0 +1,110 @@
+﻿#matrizTittle{
+    padding:10px;
+    text-align:center;
+    border-bottom:solid 1px black;
+}
+h2{
+    color:#202020;
+}
+#matrizTittle p {
+    margin:10px 0;
+    padding:0 50px;
+    color:grey;
+}
+.semTittle {
+    padding: 5px;
+    margin: 10px 0;
+    border: solid 1px black;
+    font-weight: bold;
+}
+.divSem {
+    width: 16%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+}
+.tittleDiv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.box2 {
+    height: 100px;
+    margin-bottom: 5px;
+    border:solid 1px black;
+    position:relative;
+}
+.tittleDiv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.box1 {
+    position:relative;
+    height: 60px;
+    margin-bottom: 5px;
+    border:solid 1px black;
+}
+#matrizCointeiner{
+    display:flex;
+    justify-content:space-between;
+    padding-bottom:30px;
+    border-bottom:solid 1px black;
+}
+#distAula{
+    margin-top:20px;
+}
+#distAula .titulo{
+    margin-bottom:15px;
+    font-weight:bold;
+    border:solid 1px black;
+    padding:10px;
+}
+.titulo {
+    text-align: center;
+}
+.divTable{
+    padding:5px;
+    margin-bottom:50px;
+    border:solid 1px black;
+}
+#listaMaterias {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.tituloMatrizMateria{
+    text-align:center;
+    font-weight:bold;
+}
+/*cores*/
+.verde {
+    background-color: #92d050;
+}
+.verdec{
+    background-color:#c4d79b;
+}
+.verdee {
+    background-color: #006600;
+}
+.amarelo{
+    background-color:#ffff00;
+}
+.cinza {
+    background-color: #bfbfbf;
+}
+.azul{
+    background-color:#538dd5;
+}
+.azulc{
+    background-color:#95b3d7;
+}
+.brancoe{
+    background-color:#f2f2f2;
+}
+.laranja{
+    background-color:#ef8127;
+}

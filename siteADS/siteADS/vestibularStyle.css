@@ -1,0 +1,48 @@
+﻿.h2Vestibular {
+    margin-top: 30px;
+}
+.pVestibular {
+    text-indent: 40px;
+    margin: 15px;
+    font-size: 18px;
+    text-align: justify;
+}
+#contVest{
+    padding:10px;
+    width:50%;
+}
+.btnVestibular {
+    transition: 0.5s;
+    border: none;
+    position: center;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: normal;
+    color: #222222;
+    font-size: 18px;
+    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+    width: 100%;
+    height: 50px;
+}
+.btnVestibular:hover{
+    cursor:pointer;
+    transition:0.3s;
+    transform:scale(1.1);
+    box-shadow:grey 5px 5px 5px;
+}
+#imgVestib{
+    padding:10px;
+    width:50%;
+}
+#vestibularDiv {
+    display: flex;
+    padding: 10px;
+    justify-content:space-between;
+    border-bottom:solid 1px black;
+}
+#h3Boa{
+    text-align:center;
+    font-weight:bold;
+    margin-top:50px;
+    font-size:25px;
+}

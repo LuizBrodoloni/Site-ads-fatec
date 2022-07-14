@@ -1,0 +1,49 @@
+﻿#contai{
+    display:flex;
+    margin:30px 0 30px 0;
+}
+#divInfoCont {
+    padding: 30px;
+    border-bottom: none;
+    width:40%;
+}
+#divMap{    
+    width:60%;
+}
+.subTittle {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+#divInfoCont ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+#divInfoCont ul li{
+    margin-right:20px;
+}
+#contTittle {
+    padding: 30px;
+    border-top:1px solid black;
+}
+#contai2 {
+    display: flex;
+    padding: 30px 0 60px 0;
+    border-bottom: solid 1px black;
+    justify-content: space-evenly;
+}
+.inpt{
+    width:300px;
+    height:25px;
+}
+.txtField{
+    width:300px;
+    height:95px;
+}
+.btn {  
+    padding: 15px;
+    width: 75px;
+    height:60px;
+    margin:auto 0;
+}

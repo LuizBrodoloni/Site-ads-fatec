@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="principal.master.cs" Inherits="siteADS.principal" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Análise e desenvolvimento de sistemas</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="headerStyle.css" rel="stylesheet" />
+    <link href="Professor.css" rel="stylesheet" />
+    <!-- BIBLIOTECA JS para exibir slides --> 
+    <!-- REFERENCIAS http://flexslider.woothemes.com/ --> 
+    <link href="JavaScript/flexslider.css" rel="stylesheet" />
+    <script src="JavaScript/jquery-1.7.2.min.js"></script><!-- tem que ficar aqui -->  
+    <script src="JavaScript/flexslider.min.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="header" class="contentWapper">
+            <img class="logo" src="img/fatec_widelg.jpg" />
+
+            <div class="menu">
+                <ul>
+                    <li>
+                        <asp:HyperLink ID="HyperLink1" href="home.aspx" runat="server" class="link">Inicio</asp:HyperLink>
+                    </li>
+                    <li>
+                        <asp:HyperLink ID="HyperLink4" class="link" NavigateUrl="vestibular.aspx" runat="server">Vestibular</asp:HyperLink></li>
+                    <li>
+                        <asp:HyperLink ID="HyperLink3" class="link" runat="server" NavigateUrl="matrizCurricular.aspx">Matriz Curricular</asp:HyperLink>
+
+                    </li>
+                    <li>
+                        <asp:HyperLink ID="HyperLink2" NavigateUrl="contato.aspx" runat="server" class="link">Contato</asp:HyperLink>                        
+                    </li>
+                    <li>
+                        <asp:HyperLink ID="HyperLink5" NavigateUrl="FaleConosco.aspx" runat="server">Fale Conosco</asp:HyperLink>
+                    </li>
+                     <li>
+                        <asp:HyperLink ID="HyperLink6" NavigateUrl="ExibirExcecoes.aspx" runat="server">Exibir Exceções</asp:HyperLink>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="contentWapper conteudo">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" >
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="footer" class=" contentWapper footer">
+            <p>Análise e desenvolvimento de sistemas</p>
+            
+            <p>© FATEC Americana 2022</p>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ADS2022M</name>
+    </assembly>
+    <members>
+        <member name="T:ADS2022M.ControleExcecoes">
+            <summary>
+            Está classe recupera uma exceção e salva os dados em um arquivo de log.
+            </summary>
+        </member>
+        <member name="P:ADS2022M.ControleExcecoes.Arquivo">
+            <summary>
+            Obtém ou define o nome do arquivo para gravar o log.
+            </summary>
+        </member>
+        <member name="M:ADS2022M.ControleExcecoes.SaveException(System.Exception)">
+            <summary>
+            Método Salva os dados da exceção no arquivo de log.
+            </summary>
+            <param name="ex">Recebe os dados da classe Exception</param>
+        </member>
+        <member name="M:ADS2022M.ControleExcecoes.LoadException">
+            <summary>
+            Obtem os dados do arquivo de log de exceções.
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
